@@ -1,0 +1,25 @@
+
+.container{
+  width: 100%;
+  max-width: 1360px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+section{
+  padding: 40px 0;
+}
+
+.navbar-brand img{
+    max-height: 90px;
+}
+
+.our_services{
+  background-color: #f7f7f7;
+}
+.s_box .icon_box img{
+    max-width: 100px;
+}
+.s_box h4{
+  font-size: 1.5rem;
+}
