@@ -1,4 +1,11 @@
+html,
+body{
+  overflow-x: hidden;
+}
 
+body{
+  font-family: 'Inter', sans-serif;
+}
 .container{
   width: 100%;
   max-width: 1360px;
@@ -10,16 +17,113 @@ section{
   padding: 40px 0;
 }
 
+.btn-primary{
+  background: #3e4095 !important;
+  border-color: #3e4095;
+}
+
+header{
+  background: #FFF;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  width: 100%;
+}
+header.fixed{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 999;
+}
+
+header .navbar{
+  padding: 0;
+}
 .navbar-brand img{
     max-height: 90px;
 }
+header .navbar ul li a{
+  font-size: 1rem;
+  color: #000;
+  padding: 10px 30px !important;
+}
+
+.banner{
+  background: #f7f7f7;
+}
+
+.enquiry_form_wrap{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  padding: 30px;
+}
+.enquiry_form textarea{
+  min-height: 100px;
+}
+
+.about_us,
+.our_clients{
+  background: #f7f7f7;
+}
 
 .our_services{
-  background-color: #f7f7f7;
+
 }
 .s_box .icon_box img{
     max-width: 100px;
 }
 .s_box h4{
   font-size: 1.5rem;
+}
+
+.why_choose_us .icon_box{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #fff212;
+}
+.why_choose_us h2{
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+
+footer{
+  background: #2b2b2f;
+  color: #FFF;
+}
+.social_icons a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 9px 0;
+  box-shadow: 0 0 6px rgba(0,0,0,.2);
+}
+.social_icons .fb{
+  background: #3b5998;
+}
+.social_icons .tw{
+  background: #00acee;
+}
+.social_icons a:last-child{
+  margin-right: 0;
+}
+
+.contact_ p{
+  font-size: 1rem;
+}
+.contact_ a{
+  text-decoration: none;
+  color: #FFF;
+}
+.contact_ i{
+  display: inline-block;
+  width: 20px;
 }
