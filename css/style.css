@@ -69,12 +69,32 @@ header .navbar ul li a{
 .our_services{
 
 }
-.s_box .icon_box img{
-    max-width: 100px;
+.s_box{
+  padding: 20px;
+  box-shadow: 0 0 14px rgb(0 0 0 / 30%);
+  border-radius: 4px;
+}
+.our_services .col-md-3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.s_icon_box{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff212; 
+  margin-bottom: 10px;
+  font-size: 26px;
+    line-height: 56px;
+    text-align: center;
+}
+.s_box:hover .s_icon_box{
+  background: #fff212;
 }
 .s_box h4{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
+
 
 .why_choose_us .icon_box{
   display: inline-block;
