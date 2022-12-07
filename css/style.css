@@ -70,7 +70,7 @@ header .navbar ul li a{
 
 }
 .s_box{
-  padding: 20px;
+  padding: 30px 20px;
   box-shadow: 0 0 14px rgb(0 0 0 / 30%);
   border-radius: 4px;
 }
@@ -93,8 +93,27 @@ header .navbar ul li a{
 }
 .s_box h4{
   font-size: 1.1rem;
+  margin: 0;
 }
 
+
+.our_clients .container{
+  max-width: 980px;
+}
+.our-clients-table table tr th,
+.our-clients-table table tr td{
+  padding: 15px 20px;
+}
+
+.hubspot-link__container{
+  display: none !important;
+}
+#hs-form-iframe-0{
+  height: 400px;
+}
+.actions{
+  text-align: center;
+}
 
 .why_choose_us .icon_box{
   display: inline-block;
