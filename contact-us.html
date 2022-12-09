@@ -23,48 +23,76 @@
          <div class="collapse navbar-collapse" id="menuDropdown">
            <ul class="navbar-nav d-flex justify-content-end w-100">
              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-             <li class="nav-item"><a href="/about-us.html" class="nav-link active">About Us</a></li>
+             <li class="nav-item"><a href="/about-us.html" class="nav-link">About</a></li>
              <li class="nav-item"><a href="/our-services.html" class="nav-link">Our Services</a></li>
-             <li class="nav-item"><a href="/contact-us.html" class="nav-link">Contact Us</a></li>
+             <li class="nav-item"><a href="/contact-us.html" class="nav-link active">Contact Us</a></li>
            </ul>
          </div>
         </div>
        </nav>
      </header>
-     
+
+ <section class="page_title_sec">
+   <div class="container">
+     <div class="text-center">
+       <h2>Contact Us</h2>
+     </div>
+   </div>
+ </section>    
+
 <section>
  <div class="container">
-  <section class="page_title_sec">
-    <div class="container">
-      <div class="text-center">
-        <h2>About Us</h2>
-      </div>
+  <div class="row">
+   <div class="col-md-6">
+    <div class="">
+    <div class="contact_form mt-4">
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+         hbspt.forms.create({
+          region: "na1",
+          portalId: "23518646",
+          formId: "1db5b880-b3a6-49a8-b1a5-e691ebbd46f3"
+         });
+        </script>
     </div>
-  </section>  
+    </div>
+   </div>
+   <div class="col-md-6">
+    <div class="contact_info">
+      <h4 class="mb-3">Head Office</h4>
+      <address>CB-89, Ground Floor Behind Aggarwal Sweet House Ring Road Naraina, New Delhi - 110028</address>
+      <h4 class="my-3">Branch Office</h4>
+      <address><b>Ghaziabad</b><br/>UGF 4, Jaina Tower, A-23, RDC, Rajnagar Ghaziabad 201002</address>
+      <address><b>Gurugram</b><br/>House No 31, Shani Enclave, Maruti Kunj, Gurugram 122102</address>
+      <br/>
 
-    <p>Jai Hind Security and Allied Services is a multi-facet Security agency that was established in the year 2015 with merely a handful of dedicated personnel of security guards and gunmen personally handpicked by its team. In the last few years, the number has increased while not compromising the quality of service and a sense of responsibility towards duty.</p>
-    
-    <p>At present we own an effective workforce of security guards and gunman bbesides a variety of other personnel deployed on turnkey basis from time to time. In a short span of a few years, the achievements of "Jai Hind Security and Allied Services" and unmatched.</p>
-    
-    <p>Expertise and modus operandi has generated confidence in our clients and is considered at par amongst the leading security agencies.</p>
-    
-    <h3>Our Mission</h3>
-    
-    <p>To provide quality service with complete professionalism at comparable rates.<br/>
-    
-    Maintain the standard of quality of services in our workforce through personal supervision and 
-    regular training.<br/>
-    
-    Projection of packages as per client requirements.<br/>
-    
-    Impart training and exercises on motivation to maintain team spirit of the employees.<br/>
-    
-    Supervisors and field officers are sufficiently trained to handle the security personnel and maintain optimum standards.</p>
-    
-    <p><b><i>"Your Security is our Priority"</i></b></p>  
+      <p><i class="fa fa-mobile"></i> <a href="tel:8595161181">8595161181</a></p>
+       <p><i class="fa fa-mobile"></i> <a href="tel:9213460933">9213460933</a></p>  
+       <p><i class="fa fa-phone"></i> <a href="tel:91-11-25777688">91-11-25777688</a></p>
+       <p><i class="fa fa-envelope"></i> <a href="mailto:jaihindss2014@gmail.com">jaihindss2014@gmail.com</a></p>
+    </div>
+   </div>
+ 
  </div>
 </section>
-
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var frameListener;
+  $(window).load(function () {
+      frameListener = setInterval("frameLoaded()", 50);
+  });
+  function frameLoaded() {
+      var frame = $('iframe').get(0);
+      if (frame != null) {
+          var frmHead = $(frame).contents().find('head');
+          if (frmHead != null) {
+              clearInterval(frameListener); // stop the listener
+              frmHead.append($('style, link[rel=stylesheet]').clone()); // clone existing css link
+              //frmHead.append($("<link/>", { rel: "stylesheet", href: "/css/style.css", type: "text/css" })); // or create css link yourself
+          }
+      }
+  }
+  </script>
 <footer class="pt-5 pb-4">
     <div class="container">
      <div class="row">
