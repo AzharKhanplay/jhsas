@@ -36,10 +36,14 @@
 .media_section .m_box{
   width: 100%;
   height: 400px;
+  overflow: hidden;
 }
 .media_section .m_box img{
-  object-fit: cover;
+      object-fit: cover;
     object-position: center top;
+    height: 100%;
+    width: 100%;
+    max-width: none;
 }
 </style>
  <section class="media_section">
@@ -138,6 +142,7 @@
    </footer>
   
   <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
    document.getElementById('c_year').innerHTML=new Date().getFullYear();
 
